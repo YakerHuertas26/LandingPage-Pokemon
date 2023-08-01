@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+html{
+    font-size: 62.5% ;
+}
+body{
+    background-color: #505152e7;
+    /* background-color: #78808193;  */
+    background-image: url(./img/fondoof.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    
+    
+}
+.encabezado{
+    /* border: solid red; */
+    width: 100%;
+    height: 10vh;
+    justify-content:space-around;
+    background-color: #505152e7;
+}
+.contenhijo{
+    display: inline-block;
+    
+}
+.img{
+    /* border: solid black; */
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center
+    
+}
+.img img{
+    height: 100%;
+    margin-left: 30%;
+    
+}
+.nav{
+    /* border: solid green; */
+    width: 69.8%;
+    height: 90%;
+    position: relative;  
+    bottom: 37%;
+}
+.nav-lista li{
+    list-style: none;
+    margin-top: 1px;
+    position: relative;
+    top: 5px;
+}
+.nav-lista a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    
+}
+.lista{
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 4%;
+    
+}
+.content{
+    
+    width: 100%;
+    height: 80vh;
+    
+    
+}
+.contenhijo{
+    display: inline-block;
+}
+.aside{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    /* bottom: 2.7%; */
+    bottom: 3%;
+    /* background-color: #50515254; */
+    background-color: #78808193;
+    /* background-color: #505152e7; */
+}
+.asidehijo{
+    border: dotted rosybrown;
+    border-radius: 2rem;
+    height: 30%;
+    width: 70%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
+}
+.asidehijo img{
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.section{
+    /* border: solid rgb(101, 45, 206); */
+    background-image: url(./img/fondoof.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 69.7%;
+    display: inline-block; 
+    position:relative;
+    color: beige;  
+     
+    
+}
+.sectionhijo{
+    width: 50%;
+    height: 100%;
+    /* border: solid blueviolet; */
+    margin: auto;
+}
+.titulo{
+    background-color:#C12D2D;
+    width: 15rem;
+    height: 3rem; 
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+    border-radius: 1rem;
+    margin: auto;
+}
+.titulo h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    padding-top: .4rem;
+    /* padding-top:10% ; */
+ }
+
+.info {
+    background-color: #a4a9aa56;
+    border-radius: 1rem;
+    width: 99%;
+    height: 80%;
+}
+.info__img {
+    
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    position: relative;
+    top:2rem;
+    left: 3rem;
+}
+
+.info__img img{
+    height: 100%;
+
+    border-radius: 3px;
+}
+.description{
+    background-color:#c93a3ade;
+    border-radius: 1rem;
+    width: 90%;
+    height: 10rem;
+    position: relative;
+    bottom: 5rem;
+    left: 2.5rem;
+    display: inline-flex;
+}
+
+.tipo{
+    width: 45rem;
+    height:90%;
+    margin: auto;
+    margin-top: 0.7rem;
+    display: inline-block;
+}
+
+.logo_lu {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+}
+.logo_lu img{
+    width: 100%;
+    height: 100%;
+}
+
+.acero_lucha{
+    position: relative;
+    top: .9rem;
+    margin-left:1.4rem;
+  
+}
+.acero_lucha h5{
+    background-color: black;
+    border-radius: 2px;
+    display: inline-block;
+    font-size: 1.2rem;
+    /* margin-left:1px; */
+    /* width: 50px; */
+    text-align: center;
+}
+.info_poke p{
+    font-size: 1.5rem;
+    height: 100%;
+    text-align: center;
+    margin: 1rem;
+    
+} 
+.footer{
+    background-color: #505152e7;
+    width: 100;
+    height: 10vh;
+    
+}
+.footer-info{
+    height: 80%;
+    display: inline-block;
+    position: relative;
+    left: 40%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.conte{
+    position: relative;
+    bottom: 6px;
+}
+.creador{
+    color: aliceblue;
+    font-size: 2rem;
+    position: relative;
+    top: 8px;
+}
+.redes{
+    position: relative;
+    top: 4px;
+}
+.redes img{
+    height: 70%;
+    margin-left: 8px;
+    margin-right: 8px;
+    position: relative;
+    top: 5px;
+}
